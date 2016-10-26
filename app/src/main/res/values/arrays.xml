@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the rating drop-down Spinner
+         Currently beer and movie ratings both use these and have a 5 scale rating. -->
+    <string-array name="array_rating_options">
+        <item>@string/rating_zero</item>
+        <item>@string/rating_one</item>
+        <item>@string/rating_two</item>
+        <item>@string/rating_three</item>
+        <item>@string/rating_four</item>
+        <item>@string/rating_five</item>
+    </string-array>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#03A9F4</color>
+    <color name="color_primary_dark">#0288D1</color>
+    <!-- This is the color of floating action buttons-->
+    <color name="color_accent">#9C27B0</color>
+
+
+    <!-- Background color for app -->
+    <color name="blue_background">#E1F5FE</color>
+
+    <!-- Background color for Add -->
+    <color name="category_add">#FF9800</color>
+
+    <!-- Background color for the View category -->
+    <color name="category_view">#2196F3</color>
+
+    <!-- Background color for the Edit category -->
+    <color name="category_edit">#379237</color>
+
+    <!-- Background color for the Search category -->
+    <color name="category_search">#009688</color>
+
+    <!-- Background color for the Search Results category -->
+    <color name="category_search_results">#16AFCA</color>
+
+    <!-- Background color for the Export category -->
+    <color name="category_export">#673AB7</color>
+
+    <!-- Background color for the Notes category -->
+    <color name="category_memo">#4CAF50</color>
+
+    <!-- Background color for the Beer category -->
+    <color name="category_beer">#00BCD4</color>
+
+    <!-- Background color for the Gym category 500 Lime-->
+    <color name="category_gym">#CDDC39</color>
+
+    <!-- Background color for the Movie category -->
+    <color name="category_movie">#3F51B5</color>
+
+
+</resources>

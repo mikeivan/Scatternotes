@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_background"
+    tools:context="com.mikeivan.apps.scatternotes.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/do_search_memo"
+            style="@style/CategoryStyle"
+            android:background="@color/category_memo"
+            android:text="@string/category_search_memo" />
+
+        <TextView
+            android:id="@+id/do_search_beer"
+            style="@style/CategoryStyle"
+            android:background="@color/category_beer"
+            android:text="@string/category_search_beer" />
+
+        <TextView
+            android:id="@+id/do_search_exercise"
+            style="@style/CategoryStyle"
+            android:background="@color/category_gym"
+            android:text="@string/category_search_exercise" />
+
+        <TextView
+            android:id="@+id/do_search_movie"
+            style="@style/CategoryStyle"
+            android:background="@color/category_movie"
+            android:text="@string/category_search_movie" />
+
+    </LinearLayout>
+
+</ScrollView>

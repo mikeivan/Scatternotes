@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">ScatterNotes</string>
+
+    <!-- Category name for Add -->
+    <string name="category_add">Add</string>
+
+    <string name="category_memo_add">Add Memo</string>
+    <string name="category_beer_add">Add Beer</string>
+    <string name="category_gym_add">Add Workout</string>
+    <string name="category_movie_add">Add Movie</string>
+
+    <!-- Category name for View -->
+    <string name="category_view">View</string>
+
+    <!-- Category name for Edit -->
+    <string name="category_edit">Edit</string>
+
+    <!-- Category name for Search -->
+    <string name="category_search">Search</string>
+
+    <string name="category_search_memo">Search Memos</string>
+    <string name="category_search_beer">Search Beers</string>
+    <string name="category_search_exercise">Search Exercises</string>
+    <string name="category_search_movie">Search Movies</string>
+
+    <!-- Category name for Search Results -->
+    <string name="category_search_results">Search Results</string>
+
+    <!-- Category name for Export -->
+    <string name="category_export">Export</string>
+
+    <!-- name for Memo DB -->
+    <string name="category_memo">Memos</string>
+
+    <!-- name for Beer DB -->
+    <string name="category_beer">Beers</string>
+
+    <!-- name for Gym DB -->
+    <string name="category_gym">Workouts</string>
+
+    <!-- name for Beer DB -->
+    <string name="category_movie">Movies</string>
+
+    <!-- Label for overflow menu option that inserts fake data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All DBs</string>
+
+    <!-- Label for overflow menu option that deletes all cache data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_cache">Delete All Cached Files</string>
+
+    <!-- Label for dropdown menu option for Beer rating 0 [CHAR LIMIT=20] -->
+    <string name="rating_zero">0</string>
+
+    <!-- Label for dropdown menu option for Beer rating 1 [CHAR LIMIT=20] -->
+    <string name="rating_one">1</string>
+
+    <!-- Label for dropdown menu option for Beer rating 2 [CHAR LIMIT=20] -->
+    <string name="rating_two">2</string>
+
+    <!-- Label for dropdown menu option for Beer rating 3 [CHAR LIMIT=20] -->
+    <string name="rating_three">3</string>
+
+    <!-- Label for dropdown menu option for Beer rating 4 [CHAR LIMIT=20] -->
+    <string name="rating_four">4</string>
+
+    <!-- Label for dropdown menu option for Beer rating 5 [CHAR LIMIT=20] -->
+    <string name="rating_five">5</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for rating information in the editor [CHAR LIMIT=30] -->
+    <string name="category_rating">Rating</string>
+
+    <!-- Label for beer company information in the editor [CHAR LIMIT=30] -->
+    <string name="category_company">Company</string>
+
+    <!-- Label for beer product information in the editor [CHAR LIMIT=30] -->
+    <string name="category_product">Product</string>
+
+    <!-- Text hint for memo title field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_memo_title">Title</string>
+
+    <!-- Text hint for memo notes in the editor [CHAR LIMIT=30] -->
+    <string name="hint_memo_notes">Memo</string>
+
+    <!-- Text hint for beer company in the editor [CHAR LIMIT=30] -->
+    <string name="hint_beer_company">Company</string>
+
+    <!-- Text hint for beer product in the editor [CHAR LIMIT=30] -->
+    <string name="hint_beer_product">Beer</string>
+
+    <!-- Text hint for beer notes in the editor [CHAR LIMIT=30] -->
+    <string name="hint_beer_notes">Notes</string>
+
+    <!-- Text hint for movie title in the editor [CHAR LIMIT=30] -->
+    <string name="hint_movie_title">Title</string>
+
+    <!-- Text hint for movie year in the editor [CHAR LIMIT=30] -->
+    <string name="hint_movie_year">Year</string>
+
+    <!-- Text hint for movie notes in the editor [CHAR LIMIT=30] -->
+    <string name="hint_movie_notes">Notes</string>
+
+    <!-- Text hint for workout date in the editor [CHAR LIMIT=30] -->
+    <string name="hint_gym_date">Date</string>
+
+    <!-- Text hint for exercise in the editor [CHAR LIMIT=30] -->
+    <string name="hint_exercise">Exercise</string>
+
+    <!-- Text hint for search all in the editor [CHAR LIMIT=30] -->
+    <string name="hint_search_all">Search All</string>
+
+    <!-- Text hint for memo checkbox in export [CHAR LIMIT=30] -->
+    <string name="checkbox_memo">Memo DB</string>
+
+    <!-- Text hint for beer checkbox in export [CHAR LIMIT=30] -->
+    <string name="checkbox_beer">Beer DB</string>
+
+    <!-- Text hint for workout checkbox in export [CHAR LIMIT=30] -->
+    <string name="checkbox_workout">Workout DB</string>
+
+    <!-- Text hint for exercise checkbox in export [CHAR LIMIT=30] -->
+    <string name="checkbox_exercise">Exercise DB</string>
+
+    <!-- Text hint for movie checkbox in export [CHAR LIMIT=30] -->
+    <string name="checkbox_movie">Movie DB</string>
+
+    <!-- Text hint for all checkbox in export [CHAR LIMIT=30] -->
+    <string name="checkbox_all">All DBs</string>
+
+</resources>

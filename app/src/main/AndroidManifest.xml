@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mikeivan.apps.scatternotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_note_add_white_48dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- This is to create a file that can be accessed by an email client,
+             specifically Gmail -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.mikeivan.scatternotes.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+
+        <!-- Below are names for each Activity/Screen.
+             If not specified, then they show as the app name: Scatternotes -->
+        <activity
+            android:name=".AddActivity"
+            android:label="@string/category_add" />
+        <activity
+            android:name=".ViewActivity"
+            android:label="@string/category_view" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/category_search" />
+        <activity
+            android:name=".ExportActivity"
+            android:label="@string/category_export" />
+        <activity
+            android:name=".BeerViewActivity"
+            android:label="Beer List" />
+        <activity
+            android:name=".BeerViewAdvActivity"
+            android:label="Beer List Advanced" />
+        <activity
+            android:name=".BeerAddActivity"
+            android:label="Add Beer Entry" />
+        <activity
+            android:name=".MovieViewActivity"
+            android:label="Movie List" />
+        <activity
+            android:name=".MovieViewAdvActivity"
+            android:label="Movie List Advanced" />
+        <activity
+            android:name=".MovieAddActivity"
+            android:label="Add Movie Entry" />
+        <activity
+            android:name=".WorkoutViewActivity"
+            android:label="Workout List" />
+        <activity
+            android:name=".WorkoutAddActivity"
+            android:label="Add Workout" />
+        <activity
+            android:name=".BeerEditActivity"
+            android:label="Edit Beer" />
+        <activity
+            android:name=".MovieEditActivity"
+            android:label="Edit Movie" />
+        <activity
+            android:name=".WorkoutViewAdvActivity"
+            android:label="Workout List Advanced" />
+        <activity
+            android:name=".WorkoutEditActivity"
+            android:label="Edit Workout" />
+        <activity
+            android:name=".ExerciseAddActivity"
+            android:label="Add Exercise" />
+        <activity
+            android:name=".ExerciseEditActivity"
+            android:label="Edit Exercise" />
+        <activity
+            android:name=".MemoAddActivity"
+            android:label="Add Memo" />
+        <activity
+            android:name=".MemoViewActivity"
+            android:label="Memo List" />
+        <activity
+            android:name=".MemoViewAdvActivity"
+            android:label="Memo List Advanced" />
+        <activity
+            android:name=".MemoEditActivity"
+            android:label="Edit Memo" />
+        <activity
+            android:name=".MemoSearchActivity"
+            android:label="Memo Search" />
+        <activity
+            android:name=".MemoSearchResultsActivity"
+            android:label="Memo Search Results" />
+        <activity
+            android:name=".BeerSearchActivity"
+            android:label="Beer Search" />
+        <activity
+            android:name=".BeerSearchResultsActivity"
+            android:label="Beer Search Results" />
+        <activity
+            android:name=".MovieSearchActivity"
+            android:label="Movie Search" />
+        <activity
+            android:name=".MovieSearchResultsActivity"
+            android:label="Movie Search Results" />
+        <activity
+            android:name=".ExerciseSearchActivity"
+            android:label="Exercise Search"/>
+        <activity
+            android:name=".ExerciseSearchResultsActivity"
+            android:label="Exercise Search Results"/>
+    </application>
+
+</manifest>

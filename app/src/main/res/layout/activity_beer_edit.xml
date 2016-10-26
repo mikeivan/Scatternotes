@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/category_beer"
+    tools:context="com.mikeivan.apps.scatternotes.BeerAddActivity">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_save_white_18dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_remove_white_18dp" />
+
+    <!-- Layout for the editor -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Company field -->
+        <EditText
+            android:id="@+id/edit_beer_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_beer_company"
+            android:textColor="@android:color/white"
+            android:inputType="textCapWords" />
+
+        <!-- Product field -->
+        <EditText
+            android:id="@+id/edit_beer_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_beer_product"
+            android:textColor="@android:color/white"
+            android:inputType="textCapWords" />
+
+        <!-- Rating category -->
+        <LinearLayout
+            android:id="@+id/container_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:paddingRight="16dp"
+                android:text="@string/category_rating" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Rating drop-down spinner -->
+                <Spinner
+                    android:id="@+id/spinner_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:paddingRight="8dp"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:id="@+id/edit_beer_notes"
+            android:hint="@string/hint_beer_notes"
+            android:textColor="@android:color/white"
+            android:inputType="textCapSentences|textMultiLine" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
