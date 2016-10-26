@@ -1,1 +1,7 @@
 Master's project for Michael Ivan.
+
+						Abstract
+
+	I tend to have thoughts throughout the day on various things. In an effort to not forget them I write them down on whatever is nearest, be that notebook margins or scratch paper or similar. Grouping and condensing these notes is almost impossible. In addition, I tend to forget where they are. I have a friend who records every beer he has tried in a small notebook that he carries with him. When I go to the gym, I bring a small notebook to record my workouts. 
+Physical notebooks have limitations: they can be difficult to update, search or copy. In order to hold information on different topics, either multiple notebooks need to be carried or all notes need to be contained within the same notebook. They also require something with which to write. I personally like to minimize what I carry to my keys, phone and wallet.
+By using Android Studio 2.2 and my Samsung Galaxy S5 I have developed a phone app, called “Scatternotes”, to contain the information from various notebooks, while expanding the interaction with these notes, as well as creating a foundation for more notebooks to be added. This app is a concise tool to be used for tracking a couple of different categories of notepads. It is much better than maneuvering a basic memo app to do more than it was designed to do.
