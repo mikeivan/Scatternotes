@@ -1,4 +1,5 @@
-Master's project for Michael Ivan.
+Master's project for Michael Ivan. Full report located in CapstoneReport.docx
+-----------------------------------------------------------------------------------------------------
 
 						Abstract
 
